@@ -1,4 +1,4 @@
 {
     "appService.deploySubpath": "dist\\FirstProject",
-    "appService.defaultWebAppToDeploy": ""
+    "appService.defaultWebAppToDeploy": "/subscriptions/319e3d9d-aa13-48e4-bab0-c0dc6b9779ad/resourceGroups/CarApi/providers/Microsoft.Web/sites/DipuAngular"
 }

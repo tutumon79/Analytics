@@ -1,5 +1,13 @@
 <div class="row">
     <div class="col-xs-12">
+      <div *ngFor="let color of colors">
+          <input type='checkbox' name="color" value={{color.color}} [(ngModel)]='color[isChecked]' (ngModelChange)="radioClicked(color)" (keyup.enter)="radioClicked(color)">{{color.color}}<br>
+      </div>
+    </div>
+  </div>
+  <hr>
+<div class="row">
+    <div class="col-xs-12">
         <button class="btn btn-success" (click)="onNewRecipe()">New Recipe</button>
     </div>
 </div>
